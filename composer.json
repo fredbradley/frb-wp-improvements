@@ -1,0 +1,19 @@
+{
+  "name": "fredbradley/frb-wp-improvements",
+  "require": {
+	"yahnis-elsts/plugin-update-checker": "^4.4",
+	"yahnis-elsts/admin-notices": "^1.0",
+	"tareq1988/wordpress-settings-api-class": "dev-master"
+  },
+  "autoload": {
+	"psr-4": {
+	  "FredBradley\\WPImprovements\\": "src/"
+	}
+  },
+  "authors": [
+	{
+	  "name": "Fred Bradley",
+	  "email": "hello@fredbradley.co.uk"
+	}
+  ]
+}

@@ -1,0 +1,133 @@
+[
+    {
+        "name": "tareq1988/wordpress-settings-api-class",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tareq1988/wordpress-settings-api-class.git",
+            "reference": "fea871b5281d1d07d372a9a2f99872b1ef82bf47"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tareq1988/wordpress-settings-api-class/zipball/fea871b5281d1d07d372a9a2f99872b1ef82bf47",
+            "reference": "fea871b5281d1d07d372a9a2f99872b1ef82bf47",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2018-02-12T15:45:50+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2"
+        ],
+        "authors": [
+            {
+                "name": "Tareq Hasan",
+                "email": "tareq@wedevs.com",
+                "homepage": "http://tareq.wedevs.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "WordPress settings API Abstraction Class",
+        "homepage": "https://github.com/tareq1988/wordpress-settings-api-class",
+        "keywords": [
+            "settings-api",
+            "wordpress",
+            "wp"
+        ]
+    },
+    {
+        "name": "yahnis-elsts/admin-notices",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/YahnisElsts/admin-notices.git",
+            "reference": "04f54614e27b400f231fa63ea7dd3461440eea8d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/YahnisElsts/admin-notices/zipball/04f54614e27b400f231fa63ea7dd3461440eea8d",
+            "reference": "04f54614e27b400f231fa63ea7dd3461440eea8d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-03-20T15:26:49+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "AdminNotice.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yahnis Elsts",
+                "email": "whiteshadow@w-shadow.com"
+            }
+        ],
+        "description": "A utility library for WordPress plugins that makes it easier to create admin notices. Supports persistently dismissible notices."
+    },
+    {
+        "name": "yahnis-elsts/plugin-update-checker",
+        "version": "v4.4",
+        "version_normalized": "4.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
+            "reference": "da4286343601e1f5c01836e1d51e1c57cedb0f6d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/da4286343601e1f5c01836e1d51e1c57cedb0f6d",
+            "reference": "da4286343601e1f5c01836e1d51e1c57cedb0f6d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2017-12-22T10:39:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "plugin-update-checker.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yahnis Elsts",
+                "email": "whiteshadow@w-shadow.com",
+                "homepage": "http://w-shadow.com/",
+                "role": "Developer"
+            }
+        ],
+        "description": "A custom update checker for WordPress plugins and themes. Useful if you can't host your plugin in the official WP repository but still want it to support automatic updates.",
+        "homepage": "https://github.com/YahnisElsts/plugin-update-checker/",
+        "keywords": [
+            "automatic updates",
+            "plugin updates",
+            "theme updates",
+            "wordpress"
+        ]
+    }
+]
