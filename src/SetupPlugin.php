@@ -17,7 +17,7 @@ class SetupPlugin {
 
 		self::addImprovementClass( 'ForceLowercaseUrls' );
 		self::addImprovementClass( 'FredTest' );
-		
+
 		$loadSettings = new Settings( self::$elements );
 		foreach ( self::$elements as $element ) {
 			self::checkLoad( $element[ 'name' ] );
