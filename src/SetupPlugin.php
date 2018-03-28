@@ -14,7 +14,7 @@ class SetupPlugin {
 	public static $elements = [];
 
 	public static function init() {
-
+		new UpdateCheck('frb-wp-improvements');
 		self::addImprovementClass( 'ForceLowercaseUrls' );
 		self::addImprovementClass( 'FredTest' );
 
